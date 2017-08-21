@@ -1,0 +1,11 @@
+---
+buildName: "front-end-jamie"
+links:
+  Git: "https://github.com/JamieChe/front-end.git"
+  Job: "http://jenkins.fabric8.cassini.seli.gic.ericsson.se/job/front-end-jamie"
+  Production: "http://10.111.44.206:80/kubernetes/pods?namespace=fabric8-production"
+  Staging: "http://10.111.44.206:80/kubernetes/pods?namespace=fabric8-staging"
+environments:
+  Staging: "fabric8-staging"
+  Production: "fabric8-production"
+useLocalFlow: true
